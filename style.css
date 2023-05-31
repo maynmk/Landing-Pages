@@ -65,6 +65,9 @@ header .hero h1{
     margin-top: 150px;
     font-size: 15px;
 }
+header .hero p.design {
+    font-size: 60px;
+}
 header .hero p {
     margin-top: 0;
     margin-bottom: 25px;
@@ -144,6 +147,30 @@ section.working p.b {
     font-size: 1.3vw;
     
 }
+
+section.our-process{
+    margin-top: 100px;
+}
+
+section.our-process h4,.c {
+    text-align: center;
+}
+section.our-process .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 50%;
+}
+section.our-process .icon{
+    padding: 10px;
+}
+section.our-process .icon .icon-picture{
+   margin: 5px;
+}
+section.our-process .icon .icon-picture img {
+   max-width: 2.5%;
+   position: absolute;
+}   
 
 
 
