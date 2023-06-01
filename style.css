@@ -65,12 +65,14 @@ header .hero h1{
     margin-top: 150px;
     font-size: 15px;
 }
-header .hero p.design {
+header .hero h2.design {
+    margin-top: 0;    
     font-size: 60px;
+    margin-bottom: 29px;
 }
 header .hero p {
     margin-top: 0;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 header .hero .button-nav{
     background-color: rgb(255, 255, 255);
@@ -135,42 +137,54 @@ section.working .text {
     margin-left: 150px;
     padding-top: 100px;
 }
-section.working h3{
+section.working h1{
     font-size: 1vw;
 }
-section.working p.a {
+section.working h2.a {
     font-size: 3vw;
     margin: 0 0 30px;
     
 }
 section.working p.b {
     font-size: 1.3vw;
+    font-weight: normal;
     
 }
 
 section.our-process{
-    margin-top: 100px;
+    margin: 100px 100px;
 }
 
-section.our-process h4,.c {
+section.our-process h1{
     text-align: center;
+    font-size: 17px;
+    margin: 5px;
+}
+section.our-process .c {
+    text-align: center;
+    font-size: 30px;
+    margin: 5px;
 }
 section.our-process .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 50%;
 }
 section.our-process .icon{
+    margin-top: 50px ;
     padding: 10px;
-}
-section.our-process .icon .icon-picture{
-   margin: 5px;
+    max-width: 25% ;
 }
 section.our-process .icon .icon-picture img {
-   max-width: 2.5%;
-   position: absolute;
+    width: 30px;
+    position:relative;
+    padding-left: 45%;    
 }   
+section .icon-info{
+    text-align: center;
+    font-size: 15px;
+    
+}
 
 
 
