@@ -1,5 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
 body {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+
 }
 .container {
     width: 1440px;
@@ -42,6 +49,7 @@ header nav ul li a {
     text-decoration: none;
     margin-right: 24px;
     font-size: 14px;
+
     
 }
 header button {
@@ -52,25 +60,32 @@ header button {
     margin: 4px 10px;
     transition-duration: 0.4s;
     cursor: pointer;
+
   
 }
 header .hero{
     color: white;
-    max-width: 590px;
+    max-width: 690px;
     margin-left: 150px ;
 }
 header .hero h1{
-    margin-top: 150px;
+    margin-top: 100px;
     font-size: 15px;
+    
+
 }
 header .hero h2.design {
     margin-top: 0;    
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 29px;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
 }
 header .hero p {
+    font-size: 15px;
     margin-top: 0;
     margin-bottom: 10px;
+   
 }
 header .hero .button-nav{
     background-color: rgb(255, 255, 255);
@@ -80,6 +95,8 @@ header .hero .button-nav{
     border: 2px solid #ffffff;
     transition-duration: 0.4s;
     cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+
    
 }
 
@@ -91,19 +108,20 @@ section.hear-from{
     
 }
 section.hear-from h2{
-    font-size: 25px;
+    font-size: 1.5vw;
+    font-family: 'Playfair Display', serif;
     font-weight: normal;
 }
 section.hear-from p {
-    font-size: 12px;
+    font-size: 1vw;
     letter-spacing: 0.80px;
     line-height: 50px;
-    
 }
 section.hear-from p a {
     color: black;
     text-decoration: none;
     letter-spacing: 2px;
+
 
 }
 section.working {
@@ -123,6 +141,8 @@ section.working img {
     transition-duration: 0.4s;
     cursor: pointer;
     margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+
 }
 section.working .text {
     width: 400px;
@@ -132,14 +152,18 @@ section.working .text {
 }
 section.working h1{
     font-size: 1vw;
+    
 }
 section.working h2.a {
     font-size: 3vw;
     margin: 0 0 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
 }
 section.working p.b {
-    font-size: 1.3vw;
+    font-size: 1vw;
     font-weight: normal;
+    font-family: 'Poppins', sans-serif;
 }
 
 section.our-process{
@@ -147,20 +171,22 @@ section.our-process{
 }
 section.our-process h1{
     text-align: center;
-    font-size: 17px;
+    font-size: 1vw;
     margin: 5px;
 }
-section.our-process .c {
+section.our-process h2.c {
+    font-size: 2vw;
     text-align: center;
-    font-size: 30px;
-    margin: 5px;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+
 }
 section.our-process .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-section.our-process .icon{
+section.our-process .icon {
     margin-top: 50px ;
     padding: 10px;
     max-width: 25% ;
@@ -170,11 +196,19 @@ section.our-process .icon .icon-picture img {
     position:relative;
     padding-left: 45%;    
 }   
-section .icon-info{
+section .icon-info h4{
     text-align: center;
-    font-size: 15px;
-    
+    font-size: 1vw;
+    letter-spacing: 2px;
 }
+section .icon-info p{
+    text-align: center;
+    font-size: 1vw;
+    letter-spacing: 1px;
+
+}
+
+
 
 section.amazing {
     background: #f3f3f3 ;
@@ -209,9 +243,11 @@ section.amazing h1{
 section.amazing h2.a {
     font-size: 3vw;
     margin: 0 0 30px;
+    font-family: 'Playfair Display', serif;
+
 }
 section.amazing p.b {
-    font-size: 1.3vw;
+    font-size: 1vw;
     font-weight: normal;
 }
 section.want{
@@ -224,15 +260,15 @@ section.want{
 section.want h1{
     
     text-align: center;
-    font-size: 25px;
+    font-size: 1.5vw;
     margin: 5px;
     font-weight: normal;
-    
+    font-family: 'Playfair Display', serif;
     
 }
 section.want .c {
     text-align: center;
-    font-size: 12px;
+    font-size: 1vw;
     margin: 5px;
     font-weight: normal;
     letter-spacing: 2px;
@@ -246,7 +282,7 @@ button.start {
     transition-duration: 0.4s;
     cursor: pointer;
     margin-top: 50px;
-    font-size: 10px;
+    font-size: 1vw;
     letter-spacing: 2px;
 }
 footer {
@@ -256,7 +292,7 @@ footer {
 }
 footer hr {
     border: none;
-    border-top: 1px solid #e3e3e3;
+    border-top: 1px solid #e3e3e339;
 }
 footer .logo{
     margin: auto;
