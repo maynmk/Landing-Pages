@@ -148,7 +148,7 @@ section.working .text {
     width: 400px;
     text-align: left;
     margin-left: 150px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 section.working h1{
     font-size: 1vw;
@@ -189,13 +189,13 @@ section.our-process .container {
 section.our-process .icon {
     margin-top: 50px ;
     padding: 10px;
-    max-width: 25% ;
 }
 section.our-process .icon .icon-picture img {
     width: 30px;
     position:relative;
-    padding-left: 45%;    
+    padding-left: 45%;  
 }   
+ 
 section .icon-info h4{
     text-align: center;
     font-size: 1vw;
@@ -207,9 +207,6 @@ section .icon-info p{
     letter-spacing: 1px;
 
 }
-
-
-
 section.amazing {
     background: #f3f3f3 ;
     height: 500px;
@@ -234,7 +231,8 @@ section.amazing .text {
     width: 400px;
     text-align: left;
     margin-left: 100px;
-    padding-top: 100px;
+    padding: 50px;
+    
    
 }
 section.amazing h1{
