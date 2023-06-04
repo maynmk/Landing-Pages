@@ -1,278 +1,282 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+
+
+/* Reset de estilos */
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    letter-spacing: 1px;
-
-}
-.container {
-    width: 1440px;
-    max-width: 90% ;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 90%;
     margin: auto;
-}
-ul {
-    margin: 0;
-    padding: 0;
-    
-}
-header {
-    height: calc(100vh - 0px);
+  }
+  
+  /* Header */
+  header {
+    height: 100vh;
     background: no-repeat center/cover url("img/front-casa.jpeg");
-}
-
-header .container {
+  }
+  
+  header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100px;
-    
-    
-}
-header .logo {
+  }
+  
+  header .logo {
     display: inline-block;
     color: white;
     font-size: 16px;
-}
-header nav {
+  }
+  
+  header nav {
     display: inline-block;
-    
-}
-header nav ul li {
+  }
+  
+  header nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
     display: inline-block;
-}
-header nav ul li a {
+  }
+  
+  header nav ul li a {
     color: white;
     letter-spacing: 0.37px;
     text-decoration: none;
     margin-right: 24px;
     font-size: 14px;
-
-    
-}
-header button {
+  }
+  
+  header button {
     background-color: rgba(255, 255, 255, 0);
     color: white;
     border: 2px solid #e7e7e7;
     padding: 8px 20px;
     margin: 4px 10px;
-    transition-duration: 0.4s;
     cursor: pointer;
-
+  }
   
-}
-header .hero{
+  header .hero {
     color: white;
     max-width: 690px;
-    margin-left: 150px ;
-}
-header .hero h1{
+    margin-left: 150px;
+  }
+  
+  header .hero h1 {
     margin-top: 100px;
     font-size: 15px;
-    
-
-}
-header .hero h2.design {
-    margin-top: 0;    
+  }
+  
+  header .hero h2.design {
+    margin-top: 0;
     font-size: 50px;
     margin-bottom: 29px;
     font-family: 'Playfair Display', serif;
     font-weight: normal;
-}
-header .hero p {
+  }
+  
+  header .hero p {
     font-size: 15px;
     margin-top: 0;
     margin-bottom: 10px;
-   
-}
-header .hero .button-nav{
+  }
+  
+  header .hero .button-nav {
     background-color: rgb(255, 255, 255);
     color: rgb(57, 54, 54);
     margin-top: 25px;
     padding: 8px 20px;
     border: 2px solid #ffffff;
-    transition-duration: 0.4s;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
-
-   
-}
-
-section.hear-from{
+  }
+  
+  /* Section Hear From */
+  section.hear-from {
     text-align: center;
     padding: 100px;
     margin: auto;
     width: 800px;
-    
-}
-section.hear-from h2{
+  }
+  
+  section.hear-from h2 {
     font-size: 1.5vw;
     font-family: 'Playfair Display', serif;
     font-weight: normal;
-}
-section.hear-from p {
+  }
+  
+  section.hear-from p {
     font-size: 1vw;
     letter-spacing: 0.80px;
     line-height: 50px;
-}
-section.hear-from p a {
+  }
+  
+  section.hear-from p a {
     color: black;
     text-decoration: none;
     letter-spacing: 2px;
-
-
-}
-section.working {
-    background: #f3f3f3 ;
-    height: 500px;
-}
-section.working img {
-    width: 50%;
-    height: 100% ;
-    float: right;
-}
- button {
+  }
+  /*button*/
+  button{
     background-color: rgba(255, 255, 255, 0);
     color: rgb(0, 0, 0);
+    margin-top: 25px;
+    padding: 8px 20px;
     border: 1px solid #010101;
-    padding: 10px 30px;
-    transition-duration: 0.4s;
     cursor: pointer;
-    margin-top: 20px;
     font-family: 'Poppins', sans-serif;
-
 }
-section.working .text {
-    width: 400px;
+  
+  /* Section Working */
+  section.working {
+    background: #f3f3f3;
+    height: 500px;
+  }
+  
+  section.working img {
+    width: 50%;
+    height: 100%;
+    float: right;
+  }
+  
+  section.working .text {
     text-align: left;
     margin-left: 150px;
     padding-top: 50px;
-}
-section.working h1{
+  }
+  
+  section.working h1 {
     font-size: 1vw;
-    
-}
-section.working h2.a {
+  }
+  
+  section.working h2.a {
     font-size: 3vw;
     margin: 0 0 30px;
     font-family: 'Playfair Display', serif;
     font-weight: normal;
-}
-section.working p.b {
+  }
+  
+  section.working p.b {
     font-size: 1vw;
     font-weight: normal;
     font-family: 'Poppins', sans-serif;
-}
-
-section.our-process{
-    margin: 100px 100px;
-}
-section.our-process h1{
+  }
+    
+  /* Section Our Process */
+  section.our-process {
+    margin: 100px;
+  }
+  
+  section.our-process h1 {
     text-align: center;
     font-size: 1vw;
     margin: 5px;
-}
-section.our-process h2.c {
+  }
+  
+  section.our-process h2.c {
     font-size: 2vw;
     text-align: center;
     font-family: 'Playfair Display', serif;
     font-weight: normal;
-
-}
-section.our-process .container {
+  }
+  
+  section.our-process .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-section.our-process .icon {
-    margin-top: 50px ;
+  }
+  
+  section.our-process .icon {
+    margin-top: 50px;
     padding: 10px;
-}
-section.our-process .icon .icon-picture img {
+  }
+  
+  section.our-process .icon .icon-picture img {
     width: 30px;
-    position:relative;
-    padding-left: 45%;  
-}   
- 
-section .icon-info h4{
+    position: relative;
+    padding-left: 45%;
+  }
+  
+  section .icon-info h4 {
     text-align: center;
     font-size: 1vw;
     letter-spacing: 2px;
-}
-section .icon-info p{
+  }
+  
+  section .icon-info p {
     text-align: center;
     font-size: 1vw;
     letter-spacing: 1px;
-
-}
-section.amazing {
-    background: #f3f3f3 ;
+  }
+  
+  /* Section Amazing */
+  section.amazing {
+    background: #f3f3f3;
     height: 500px;
     display: flex;
-}
-section.amazing img {
+  }
+  
+  section.amazing img {
     width: 50%;
-    height: 100% ;
-    
-   
-}
- button {
-    background-color: rgba(255, 255, 255, 0);
-    color: rgb(0, 0, 0);
-    border: 1px solid #010101;
-    padding: 10px 30px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    margin-top: 20px;
-}
-section.amazing .text {
+    height: 100%;
+  }
+  
+  section.amazing .text {
     width: 400px;
     text-align: left;
     margin-left: 100px;
     padding: 50px;
-    
-   
-}
-section.amazing h1{
+  }
+  
+  section.amazing h1 {
     font-size: 1vw;
-}
-section.amazing h2.a {
+  }
+  
+  section.amazing h2.a {
     font-size: 3vw;
     margin: 0 0 30px;
     font-family: 'Playfair Display', serif;
-
-}
-section.amazing p.b {
+  }
+  
+  section.amazing p.b {
     font-size: 1vw;
     font-weight: normal;
-}
-section.want{
-   margin: auto;
-   padding: 100px;
-   width: 800px;
-   text-align: center;
-   
-}
-section.want h1{
-    
+  }
+  
+  /* Section Want */
+  section.want {
+    margin: auto;
+    padding: 100px;
+    width: 800px;
+    text-align: center;
+  }
+  
+  section.want h1 {
     text-align: center;
     font-size: 1.5vw;
     margin: 5px;
     font-weight: normal;
     font-family: 'Playfair Display', serif;
-    
-}
-section.want .c {
+  }
+  
+  section.want .c {
     text-align: center;
     font-size: 1vw;
     margin: 5px;
     font-weight: normal;
     letter-spacing: 2px;
     margin-top: 40px;
-}
-button.start {
+  }
+  
+  button.start {
     background-color: rgba(1, 1, 1, 0.978);
     color: rgb(249, 248, 248);
     border: 1px solid #010101;
@@ -282,46 +286,46 @@ button.start {
     margin-top: 50px;
     font-size: 1vw;
     letter-spacing: 2px;
-}
-footer {
+  }
+  
+  /* Footer */
+  footer {
     margin: auto;
     text-align: center;
-    
-}
-footer hr {
+  }
+  
+  footer hr {
     border: none;
     border-top: 1px solid #e3e3e339;
-}
-footer .logo{
+  }
+  
+  footer .logo {
     margin: auto;
     padding: 30px;
-
-}
-ul {
+  }
+  
+  footer nav {
+    display: inline-block;
+  }
+  
+  footer nav ul {
     margin: 0;
-    
-   
-}
-footer li{
-    padding-left: 10px;
-}
-
-footer nav {
+    padding: 0;
+  }
+  
+  footer nav ul li {
     display: inline-block;
-    
-}
-footer nav ul li {
-    display: inline-block;
-}
-footer nav ul li a {
+  }
+  
+  footer nav ul li a {
     color: rgb(14, 14, 14);
     letter-spacing: 0.37px;
     text-decoration: none;
     margin-right: 24px;
-    font-size: 10px;
-    
-}
-footer .copyright-text {
+    font-size: 14px;
+  }
+
+  footer .copyright-text {
     color: rgb(132, 131, 131);
     height: 60px;
     display: flex;
@@ -331,12 +335,3 @@ footer .copyright-text {
     letter-spacing: 0.4px;
     line-height: 22px;
 }
-
-
-    
-
-
-
-
-
-
