@@ -5,6 +5,7 @@
 
 
 /* Reset de estilos */
+
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -12,7 +13,7 @@ body {
   
   /* Container */
   .container {
-    max-width: 90%;
+    max-width: 100%;
     margin: auto;
   }
   
@@ -26,20 +27,25 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #181818;
   }
   
   header .logo {
     display: inline-block;
     color: white;
     font-size: 16px;
+    margin-left: 20px;
+
   }
   
   header nav {
     display: inline-block;
+    
   }
+
   
   header nav ul {
-    margin: 0;
+    margin: 0 20px;
     padding: 0;
   }
   
@@ -54,16 +60,23 @@ body {
     margin-right: 24px;
     font-size: 14px;
   }
-  
   header button {
+
     background-color: rgba(255, 255, 255, 0);
     color: white;
     border: 2px solid #e7e7e7;
-    padding: 8px 20px;
+    padding: 5px 6px;
     margin: 4px 10px;
     cursor: pointer;
+    
   }
-  
+  header button a {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 10px;
+
+    
+  }  
   header .hero {
     color: white;
     max-width: 690px;
@@ -100,6 +113,7 @@ body {
   }
   
   /* Section Hear From */
+ 
   section.hear-from {
     text-align: center;
     padding: 100px;
@@ -124,6 +138,7 @@ body {
     text-decoration: none;
     letter-spacing: 2px;
   }
+  
   /*button*/
   button{
     background-color: rgba(255, 255, 255, 0);
@@ -335,3 +350,33 @@ body {
     letter-spacing: 0.4px;
     line-height: 22px;
 }
+ /* services*/
+ section.service {
+  padding: 10px;
+  width: 75vw;
+  
+}
+ .gallery-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2vw;
+  padding: 0 1vw;
+ 
+}
+.gallery-items{
+  width: 340px;
+  height: 300px;
+  
+ 
+}
+.gallery-items img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5%;
+  box-shadow: 5px 5px 5px black;
+ 
+  
+}
+
